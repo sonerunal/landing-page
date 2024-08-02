@@ -1,0 +1,437 @@
+* {
+    margin:0px;
+    padding:0px;
+    margin-left:0px;
+    padding-left:0px;
+    padding-top:0px;
+    left:0px;
+  
+   
+}
+
+
+:root {
+    --font_family : "Avenir Next", sans-serif;
+    --font_size : 20px;
+    --main_image : "image/lake.jpg";
+    --font_color : #ffffff;
+}
+body {
+    font-family: var(--font_family);
+    font-size: var(--font_size);
+    color: var(--font_color);
+    background: rgb(247, 247, 247);
+  
+}
+
+header {
+    background: linear-gradient(rgb(47, 125, 177) 0%, rgba(23, 98, 147, 0.337) 71%, rgba(23, 98, 147, 0) 100%);
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    transition: top 0.6s;
+     
+    
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 50px;
+    margin-left: 50px;
+    height: 100px;
+    
+
+}
+
+.navi ul {
+    list-style: none;
+    display: flex;
+    column-gap: 60px;
+}
+
+.logo {
+    font-size: 24px;    
+    margin-left: 24px;
+    padding: 18px;
+    align-items: center;        
+}
+
+.logo img {
+    position: absolute;
+    left: 80px;
+}
+
+.camplogo {
+    margin-left: 30px;
+}
+
+.imgcontainer {
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    height: 480px;
+    display: flex;
+    width: 100%;
+    margin-left: 0px;
+}
+.kbut {
+    text-decoration: none;
+    background-color: #ffffff;
+    padding: 12px 36px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 100px;
+    width: 100%;
+    color: black;   
+}
+
+.kbut:hover {
+    background-color: #f0f0f0;
+}
+
+
+.linear {
+    background: linear-gradient(rgba(247, 247, 247, 0) 0%, rgba(247, 247, 247, 0.09) 8.85%, rgb(247, 247, 247) 100%);
+    height: 100px;
+    bottom: 0px;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    
+}
+
+
+.imgcontainer img {
+    position: relative;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    height: 480px;
+    object-fit:cover;
+
+}
+
+section {
+    color: black;
+    text-align: center;
+    padding: 25px 400px;
+    background: rgb(247, 247, 247);
+    
+}
+
+section .skbut {
+    color: #ffffff;
+    text-decoration: none;
+    border: 2px solid white;
+    background-color: #403C01;
+    padding: 15px 100px;
+    border-radius: 100px;   
+    font-size: 25px;
+}
+
+section h1 {
+    font-size: 50px;
+    color: #565902;
+    margin-bottom: 10px;
+}
+
+section p {
+    font-size: 18px;
+    margin-bottom: 40px;
+    line-height: 30px;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.card {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.card h2 {
+    margin-bottom: 80px;
+    color: #565902;
+}
+
+.card ul {
+    column-gap: 50px;
+    display: flex;
+    list-style: none;
+}
+
+.card ul li img {
+    margin-bottom: 50px;
+}
+
+.card ul li h3 {
+    margin-bottom: 20px;
+}
+
+.card ul li {
+    border: 2px solid #403C01 ;
+    border-radius: 20px;
+    padding-top: 40px;
+    height: 300px;
+    transition: 0.3s;
+}
+.card ul li:hover {
+    transform: translateY(20px);
+} 
+.rsm {
+    height: 500px;
+    width: 100%;
+    position: relative;
+    
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+}
+
+.eve {
+    position: absolute;
+    height: 0px;
+    background-color: white;
+    z-index: 1;
+    display: block;
+    width: 100%;
+    transition: 0.3s;
+}
+
+.gel {
+    height: 100px;
+    z-index: -1;
+}
+
+.newbut {
+    background-color: #403C01;
+    color: #fff;
+}
+
+.newbut:hover {
+    background-color: #333006;
+}
+
+.newcampl {
+    color: #000;
+}
+
+.newli {
+    color: #000;
+}
+
+.card-list .card-item img {
+    width: 100px;
+}
+
+.card-list .card-item {
+    width: 400px;
+    height: 300px;
+    background: rgb(1,1,0);
+    background: linear-gradient(0deg, rgba(1,1,0,1) 0%, rgba(64,60,1,1) 69%);
+    border-radius: 20px;
+    padding: 35px;
+   
+   
+}
+
+.card-list .card-item h2 {
+    margin-top: 40px;
+}
+
+.card-list .card-item p,
+.card-list .card-item img {
+    margin-top: 20px;
+}
+
+.two {
+    color: #403C01;
+    text-align: center;
+    margin: 40px;
+}
+
+.footer {
+    height: 280px;
+    margin-top: 80px;
+    background-color: #403C01;
+}
+
+.info {
+    margin-right: 400px;
+    margin-left: 400px;
+    display: flex;
+    justify-content: space-between;
+    height: 200px;
+    position: relative;
+    top: 40px;
+    align-items: center;
+}
+
+.right-side {
+    display: flex;
+    column-gap: 50px;
+}
+
+.right-side ul {
+    list-style: none;
+}
+
+.right-side h2 {
+    margin-bottom: 20px;
+}
+
+.menu {
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+    nav {
+        position: absolute;
+    }
+    .eve {
+        display: none;
+    }
+    .imgcontainer {
+        height: 200px;
+    }
+    .imgcontainer img {
+        object-fit: fill;
+        height: 200px;
+        width: 100%;
+    }
+
+    .logo {
+        padding: 0%;
+        margin-left: 0;
+        color: #000;
+    }
+    .logo img {
+        left: 0;
+    }
+    .container {
+
+        margin-left: 0%;
+        padding: 0%;
+        margin: 0%;
+        display: block;
+        
+    }
+
+    .navi ul {
+        display: inline;
+        position: absolute;
+        left: 0px;
+        right: 0px;
+        text-align: center;
+      
+        
+    }
+    .navi {
+        
+        position: absolute;
+        top: 0px;
+        width: 430px;
+        height: 200px;
+        color: #000;
+
+        
+    }
+    .navi ul li {
+        padding-top: 20px;
+    }
+
+    .kbut {
+
+        left: 0 ;
+        padding: 10px 20px;
+    
+    }
+
+    section {
+       padding: 0%;
+       margin: 0%;
+       margin-top: 20px;
+       width: 380px;
+       margin-left: 10px;
+    }
+
+    section h1 {
+        font-size: 30px;
+    }
+
+    section p {
+        font-size: 12px;
+        line-height: 12px;
+        margin-bottom: 10px;
+    }
+    section .skbut {
+        padding: 10px 30px;
+        font-size: 12px;
+        border-radius: 20px;
+    }
+
+    .card {
+        margin-top: 20px;
+    }
+
+    .card h2 {
+        margin-bottom: 20px;
+    }
+
+    .card ul {
+        column-gap: 20px;
+    }
+
+    .rsm {
+        height: 200px;
+
+    }
+
+    .rsm img {
+        height: 200px;
+        object-fit: fill;
+    }
+
+    .two {
+        margin: 20px;
+        font-size: 24px;
+    }
+    .card-list .card-item {
+        width: 200px;
+        height: 100px;
+        padding: 20px;
+        font-size: 10px;
+    }
+
+    .con-card  {
+        width: 400px;
+        
+    }
+
+    .card-list .card-item h2 {
+        margin-top: 0px;
+    }
+    
+    .card-list .card-item p,
+    .card-list .card-item img {
+        margin-top: 0px;
+    }
+
+    .footer {
+        margin-top: 40px;
+    }
+
+    .footer .info {
+        width: 400px;
+        
+    }
+
+    .info {
+        margin: 0;
+        font-size: 12px;
+    }
+    header {
+        position: relative;
+    }
+}
